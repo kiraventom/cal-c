@@ -16,7 +16,7 @@ namespace cal_c
             var display = string.Empty;
 
             Console.WriteLine("Cal-C");
-            Console.WriteLine("Contrlols: C - clear, Backspace - erase, Enter - calculate, Esc - close");
+            Console.WriteLine("Controls: C - clear, Backspace - erase, Enter - calculate, Esc - close");
 
             cycle:
             var firstSign = calcEngine.FirstSign == 1 ? string.Empty : "-";
